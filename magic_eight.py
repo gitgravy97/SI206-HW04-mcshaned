@@ -1,3 +1,3 @@
 def ask_question():
-	question = input("What is your question?")
+	question = input("What is your question? ")
 	return(question)
