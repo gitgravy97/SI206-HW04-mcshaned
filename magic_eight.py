@@ -21,9 +21,6 @@ ans = ['It is certain', 'It is decidedly so', 'Without a doubt',
 		'Cannot predict now', 'Concentrate and ask again', "Don't count on it",
 		'My reply is no', 'My sources say no', 'Outlook not so good', 'Very doubtful']
 
-#ask_question()
-#print (random.choice(ans))
-
 keep_going = True
 while(keep_going):
 	user_question = ask_question()
