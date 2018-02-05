@@ -2,9 +2,6 @@ import random
 
 def ask_question():
 	question = input("What is your question? ")
-<<<<<<< HEAD
-	return(question)
-=======
 	return(question)
 
 def check_question(question_in):
@@ -33,4 +30,4 @@ while(keep_going):
 
 	if(check_question(user_question) == True):
 		print(random_response())
->>>>>>> check_question
+		check_question
